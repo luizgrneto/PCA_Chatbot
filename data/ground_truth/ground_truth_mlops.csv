@@ -1,0 +1,36 @@
+difficulty,question,answer
+beginner,O que é MLOps?,"MLOps é a disciplina que combina práticas de Machine Learning, DevOps e engenharia de software para gerenciar o ciclo de vida completo de modelos, desde desenvolvimento até monitoramento e manutenção contínua."
+beginner,Qual a diferença entre MlOps e Data Scientist?,"A diferença entre um Data Scientist e um ML Engineer é que o primeiro se concentra em desenvolver modelos de aprendizado automático, enquanto o segundo se concentra na engenharia da construção e implantação desses modelos."
+beginner,Qual a diferença entre MLOps e DevOps?,"DevOps foca em desenvolvimento e operação de software tradicional, enquanto MLOps lida também com dados, treinamento de modelos, versionamento de experimentos e monitoramento de métricas de inferência e drift."
+intermediate,O que é drift em modelos de machine learning?,"Drift é a mudança estatística no comportamento dos dados ou das relações entre variáveis ao longo do tempo, resultando em perda de performance do modelo."
+beginner,O que é feature store?,"Uma feature store é um sistema que centraliza criação, versionamento, armazenamento e disponibilização de features para treinamento e inferência."
+beginner,O que significa servir um modelo em produção?,"Servir um modelo significa disponibilizá-lo por meio de um endpoint, job ou pipeline para receber dados e retornar previsões de forma escalável e confiável."
+beginner,Por que versionar modelos é importante?,"Versionar modelos permite rastrear artefatos, reproduzir experimentos, auditar previsões e garantir rollback seguro."
+beginner,O que é um pipeline de ML?,"É um fluxo automatizado que engloba etapas como ingestão, processamento, feature engineering, treinamento, avaliação e deploy."
+beginner,O que é reprodutibilidade em ML?,"Capacidade de reproduzir os mesmos resultados usando o mesmo código, dados e parâmetros."
+beginner,O que é CI/CD aplicado a ML?,"CI/CD em ML automatiza testes, validação, empacotamento e implantação de modelos, garantindo ciclos mais rápidos e confiáveis."
+beginner,Por que monitorar um modelo em produção?,"Para detectar quedas de performance, drifts, falhas de pipeline, mudanças de distribuição e problemas de latência ou disponibilidade."
+beginner,O que é um model registry?,"Repositório central para armazenar versões de modelos, métricas e histórico."
+beginner,O que é data validation em MLOps?,"É o processo automatizado de verificar integridade, schema, ranges e consistência de dados antes de alimentar o pipeline de ML."
+beginner,Diferença entre batch inference e online inference?,"Batch inference processa grandes volumes de dados periodicamente, enquanto online inference responde em tempo real para requisições individuais."
+beginner,O que é feature drift?,É a mudança na distribuição estatística das features usadas pelo modelo ao longo do tempo.
+beginner,O que é concept drift?,"É quando a relação entre as features e a variável alvo muda, tornando o modelo menos eficaz."
+beginner,Para que serve o MLflow?,"Gerenciar experimentos, registrar métricas e armazenar modelos."
+intermediate,O que é canary deployment em ML?,É uma estratégia onde uma nova versão do modelo é implantada para uma pequena parcela do tráfego para validar performance antes do rollout completo.
+beginner,O que é pipeline de retreinamento de modelo?,Pipeline automático que treina novamente o modelo com novos dados ou drift.
+beginner,O que caracteriza um bom ambiente de MLOps?,"Um ambiente com versionamento consistente, pipelines automatizados, monitoramento contínuo, logging estruturado, validação de dados e processos reprodutíveis."
+beginner,O que é um modelo de machine learning?,Um modelo de machine learning é um algoritmo treinado com dados para fazer previsões ou classificações.
+beginner,O que é treinamento de modelo?,Treinamento é o processo de ajustar os parâmetros do modelo usando dados rotulados ou não rotulados.
+beginner,Por que separar treino e teste?,A separação evita overfitting e garante avaliação imparcial da performance.
+beginner,O que é inferência?,Inferência é o uso de um modelo treinado para gerar previsões em novos dados.
+beginner,O que é um dataset?,"Dataset é uma coleção estruturada de dados utilizada para treinamento, validação ou teste."
+intermediate,Por que usar pipelines em ML?,"Pipelines organizam e automatizam as etapas do ciclo de vida de ML, garantindo reprodutibilidade e escalabilidade."
+intermediate,O que são métricas de avaliação?,"São medidas numéricas que indicam a qualidade do modelo, como accuracy, F1 e RMSE."
+intermediate,O que é um modelo baseline?,É um modelo simples usado como referência para comparar modelos mais complexos.
+intermediate,O que significa monitorar latência de inferência?,Monitorar latência garante que o modelo responda dentro dos limites necessários para uso real.
+intermediate,O que é validação cruzada?,É uma técnica que divide os dados em múltiplos subconjuntos para avaliar melhor a generalização.
+advanced,O que é model drift detection?,É o processo automatizado de identificar mudanças na distribuição ou relação dos dados que afetam a performance do modelo.
+advanced,Qual a importância de um lineage tracker em MLOps?,"Lineage tracking permite rastrear dados, modelos, experimentos e artefatos para auditoria e reprodutibilidade."
+advanced,O que é continuous training (CT)?,CT é a prática de treinar novamente modelos automaticamente com novos dados conforme regras definidas.
+advanced,Como funciona um sistema de AB testing para modelos?,O sistema divide tráfego entre modelos diferentes para comparar performance estatisticamente.
+advanced,O que é um modelo champion vs challenger?,"O modelo champion é o atual em produção, enquanto challengers são avaliados como potenciais substitutos."
