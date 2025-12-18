@@ -20,6 +20,9 @@
             {
                 "gpt-oss:20b-cloud": null,
                 "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...e.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
+            },
+            {
+                "gpt-oss:20b-cloud": 0.5333333333333333
             }
         ],
         "context_relevancy_score": [
@@ -31,6 +34,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.7297297297297297
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for ContextualRelevancyVerdicts\n  Invalid JSON: expected `,` or `}` at line 52 column 5 [type=json_invalid, input_value='{\\n  \"verdicts\": [\\n    ... MLOps.\"\\n    ]\\n  ]\\n}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ],
         "answer_relevancy_score": [
@@ -39,6 +46,9 @@
             },
             {
                 "llama3.2:latest": 0.6666666666666666
+            },
+            {
+                "gpt-oss:20b-cloud": 0.7
             },
             {
                 "gpt-oss:20b-cloud": 0.7
@@ -54,6 +64,9 @@
             {
                 "gpt-oss:20b-cloud": null,
                 "logs": "1 validation error for Truths\n  Invalid JSON: EOF while parsing a string at line 1 column 2457 [type=json_invalid, input_value='{\"truths\":[\"The text lis...versarial attacks.\\\\\"]}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             }
         ]
     },
@@ -78,6 +91,9 @@
             {
                 "gpt-oss:20b-cloud": null,
                 "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...s.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
+            },
+            {
+                "gpt-oss:20b-cloud": 0.5
             }
         ],
         "context_relevancy_score": [
@@ -89,6 +105,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.696969696969697
+            },
+            {
+                "gpt-oss:20b-cloud": 0.6875
             }
         ],
         "answer_relevancy_score": [
@@ -100,6 +119,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8888888888888888
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8888888888888888
             }
         ],
         "faithfulness_score": [
@@ -108,6 +130,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8333333333333334
             },
             {
                 "gpt-oss:20b-cloud": 0.8333333333333334
@@ -134,6 +159,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 0.95
             }
         ],
         "context_relevancy_score": [
@@ -145,6 +173,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.7142857142857143
+            },
+            {
+                "gpt-oss:20b-cloud": 0.6571428571428571
             }
         ],
         "answer_relevancy_score": [
@@ -156,6 +187,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.75
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Statements\n  Invalid JSON: expected `,` or `]` at line 1 column 867 [type=json_invalid, input_value='{\"statements\":[\"Uma perg...de software em geral.\"}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ],
         "faithfulness_score": [
@@ -164,6 +199,9 @@
             },
             {
                 "llama3.2:latest": 0.5714285714285714
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -191,6 +229,9 @@
             {
                 "gpt-oss:20b-cloud": null,
                 "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...s.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             }
         ],
         "context_relevancy_score": [
@@ -199,6 +240,9 @@
             },
             {
                 "llama3.2:latest": 0.5652173913043478
+            },
+            {
+                "gpt-oss:20b-cloud": 0.3333333333333333
             },
             {
                 "gpt-oss:20b-cloud": 0.3333333333333333
@@ -213,6 +257,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8571428571428571
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8571428571428571
             }
         ],
         "faithfulness_score": [
@@ -221,6 +268,9 @@
             },
             {
                 "llama3.2:latest": 0.5
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -247,6 +297,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.95
+            },
+            {
+                "gpt-oss:20b-cloud": 0.95
             }
         ],
         "context_relevancy_score": [
@@ -258,6 +311,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8055555555555556
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8181818181818182
             }
         ],
         "answer_relevancy_score": [
@@ -269,6 +325,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.5555555555555556
+            },
+            {
+                "gpt-oss:20b-cloud": 0.5
             }
         ],
         "faithfulness_score": [
@@ -277,6 +336,9 @@
             },
             {
                 "llama3.2:latest": 0.6666666666666666
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -303,6 +365,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8666666666666667
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...es\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ],
         "context_relevancy_score": [
@@ -314,6 +380,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.4444444444444444
+            },
+            {
+                "gpt-oss:20b-cloud": 0.5
             }
         ],
         "answer_relevancy_score": [
@@ -325,6 +394,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8888888888888888
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8888888888888888
             }
         ],
         "faithfulness_score": [
@@ -333,6 +405,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -360,6 +435,9 @@
             {
                 "gpt-oss:20b-cloud": null,
                 "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...g.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
+            },
+            {
+                "gpt-oss:20b-cloud": 0.6791666666666667
             }
         ],
         "context_relevancy_score": [
@@ -371,6 +449,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.5185185185185185
+            },
+            {
+                "gpt-oss:20b-cloud": 0.6176470588235294
             }
         ],
         "answer_relevancy_score": [
@@ -382,6 +463,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8571428571428571
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8571428571428571
             }
         ],
         "faithfulness_score": [
@@ -390,6 +474,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -416,6 +503,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8055555555555555
+            },
+            {
+                "gpt-oss:20b-cloud": 0.3333333333333333
             }
         ],
         "context_relevancy_score": [
@@ -427,6 +517,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.5151515151515151
+            },
+            {
+                "gpt-oss:20b-cloud": 0.4583333333333333
             }
         ],
         "answer_relevancy_score": [
@@ -438,6 +531,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             }
         ],
         "faithfulness_score": [
@@ -446,6 +542,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -472,6 +571,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0
+            },
+            {
+                "gpt-oss:20b-cloud": 0
             }
         ],
         "context_relevancy_score": [
@@ -484,6 +586,9 @@
             {
                 "gpt-oss:20b-cloud": null,
                 "logs": "1 validation error for ContextualRelevancyVerdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...\\\"\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
+            },
+            {
+                "gpt-oss:20b-cloud": 0.03125
             }
         ],
         "answer_relevancy_score": [
@@ -495,6 +600,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.75
+            },
+            {
+                "gpt-oss:20b-cloud": 0.6666666666666666
             }
         ],
         "faithfulness_score": [
@@ -503,6 +611,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -529,6 +640,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             }
         ],
         "context_relevancy_score": [
@@ -540,6 +654,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.13793103448275862
+            },
+            {
+                "gpt-oss:20b-cloud": 0.3125
             }
         ],
         "answer_relevancy_score": [
@@ -551,6 +668,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.7777777777777778
+            },
+            {
+                "gpt-oss:20b-cloud": 0.7
             }
         ],
         "faithfulness_score": [
@@ -559,6 +679,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -585,6 +708,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8875
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8875
             }
         ],
         "context_relevancy_score": [
@@ -596,6 +722,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.6060606060606061
+            },
+            {
+                "gpt-oss:20b-cloud": 0.4
             }
         ],
         "answer_relevancy_score": [
@@ -607,6 +736,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8
             }
         ],
         "faithfulness_score": [
@@ -615,6 +747,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -641,6 +776,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.29166666666666663
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...r.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ],
         "context_relevancy_score": [
@@ -652,6 +791,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.39473684210526316
+            },
+            {
+                "gpt-oss:20b-cloud": 0.38461538461538464
             }
         ],
         "answer_relevancy_score": [
@@ -663,6 +805,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             }
         ],
         "faithfulness_score": [
@@ -671,6 +816,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -697,6 +845,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.6388888888888888
+            },
+            {
+                "gpt-oss:20b-cloud": 0.6388888888888888
             }
         ],
         "context_relevancy_score": [
@@ -708,6 +859,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.24242424242424243
+            },
+            {
+                "gpt-oss:20b-cloud": 0.40540540540540543
             }
         ],
         "answer_relevancy_score": [
@@ -719,6 +873,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.75
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8571428571428571
             }
         ],
         "faithfulness_score": [
@@ -727,6 +884,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -753,6 +913,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...no\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ],
         "context_relevancy_score": [
@@ -764,6 +928,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.25
+            },
+            {
+                "gpt-oss:20b-cloud": 0.24242424242424243
             }
         ],
         "answer_relevancy_score": [
@@ -775,6 +942,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.75
+            },
+            {
+                "gpt-oss:20b-cloud": 0.7333333333333333
             }
         ],
         "faithfulness_score": [
@@ -783,6 +953,9 @@
             },
             {
                 "llama3.2:latest": 0.6666666666666666
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -809,6 +982,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0
+            },
+            {
+                "gpt-oss:20b-cloud": 0
             }
         ],
         "context_relevancy_score": [
@@ -820,6 +996,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.4864864864864865
+            },
+            {
+                "gpt-oss:20b-cloud": 0.42105263157894735
             }
         ],
         "answer_relevancy_score": [
@@ -831,6 +1010,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.625
+            },
+            {
+                "gpt-oss:20b-cloud": 0.625
             }
         ],
         "faithfulness_score": [
@@ -839,6 +1021,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -865,6 +1050,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.325
+            },
+            {
+                "gpt-oss:20b-cloud": 0.2
             }
         ],
         "context_relevancy_score": [
@@ -876,6 +1064,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.3870967741935484
+            },
+            {
+                "gpt-oss:20b-cloud": 0.25
             }
         ],
         "answer_relevancy_score": [
@@ -887,6 +1078,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8888888888888888
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8888888888888888
             }
         ],
         "faithfulness_score": [
@@ -895,6 +1089,9 @@
             },
             {
                 "llama3.2:latest": 0.6666666666666666
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -921,6 +1118,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0
+            },
+            {
+                "gpt-oss:20b-cloud": 0
             }
         ],
         "context_relevancy_score": [
@@ -932,6 +1132,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.4166666666666667
+            },
+            {
+                "gpt-oss:20b-cloud": 0.2
             }
         ],
         "answer_relevancy_score": [
@@ -943,6 +1146,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8571428571428571
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8571428571428571
             }
         ],
         "faithfulness_score": [
@@ -951,6 +1157,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -977,6 +1186,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.7
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             }
         ],
         "context_relevancy_score": [
@@ -988,6 +1200,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.0967741935483871
+            },
+            {
+                "gpt-oss:20b-cloud": 0.06451612903225806
             }
         ],
         "answer_relevancy_score": [
@@ -996,6 +1211,9 @@
             },
             {
                 "llama3.2:latest": 0.5
+            },
+            {
+                "gpt-oss:20b-cloud": 0.5
             },
             {
                 "gpt-oss:20b-cloud": 0.5
@@ -1010,6 +1228,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Claims\n  Invalid JSON: expected `,` or `]` at line 1 column 707 [type=json_invalid, input_value='{\"claims\":[\"Acanção (C...-lo em escala maior.\"}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ]
     },
@@ -1033,6 +1255,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.75
+            },
+            {
+                "gpt-oss:20b-cloud": 0.75
             }
         ],
         "context_relevancy_score": [
@@ -1044,6 +1269,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.4864864864864865
+            },
+            {
+                "gpt-oss:20b-cloud": 0.4
             }
         ],
         "answer_relevancy_score": [
@@ -1055,6 +1283,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             }
         ],
         "faithfulness_score": [
@@ -1063,6 +1294,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1089,6 +1323,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 0.95
             }
         ],
         "context_relevancy_score": [
@@ -1100,6 +1337,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             }
         ],
         "answer_relevancy_score": [
@@ -1108,6 +1348,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1123,6 +1366,9 @@
             {
                 "gpt-oss:20b-cloud": null,
                 "logs": "1 validation error for Claims\n  Invalid JSON: expected `,` or `]` at line 1 column 1510 [type=json_invalid, input_value='{\"claims\":[\"Um bom ambie...vimento e operação.\"}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             }
         ]
     },
@@ -1146,6 +1392,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.5333333333333333
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...l.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ],
         "context_relevancy_score": [
@@ -1157,6 +1407,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.3
+            },
+            {
+                "gpt-oss:20b-cloud": 0.3225806451612903
             }
         ],
         "answer_relevancy_score": [
@@ -1168,6 +1421,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.7142857142857143
+            },
+            {
+                "gpt-oss:20b-cloud": 0.7142857142857143
             }
         ],
         "faithfulness_score": [
@@ -1176,6 +1432,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1202,6 +1461,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0
+            },
+            {
+                "gpt-oss:20b-cloud": 0.25
             }
         ],
         "context_relevancy_score": [
@@ -1213,6 +1475,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.0625
+            },
+            {
+                "gpt-oss:20b-cloud": 0.06060606060606061
             }
         ],
         "answer_relevancy_score": [
@@ -1224,6 +1489,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8571428571428571
+            },
+            {
+                "gpt-oss:20b-cloud": 0.75
             }
         ],
         "faithfulness_score": [
@@ -1232,6 +1500,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1258,6 +1529,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.2
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8041666666666667
             }
         ],
         "context_relevancy_score": [
@@ -1269,6 +1543,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.1111111111111111
+            },
+            {
+                "gpt-oss:20b-cloud": 0.21621621621621623
             }
         ],
         "answer_relevancy_score": [
@@ -1280,6 +1557,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8
             }
         ],
         "faithfulness_score": [
@@ -1288,6 +1568,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1314,6 +1597,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0
+            },
+            {
+                "gpt-oss:20b-cloud": 0
             }
         ],
         "context_relevancy_score": [
@@ -1322,6 +1608,9 @@
             },
             {
                 "llama3.2:latest": 0.5897435897435898
+            },
+            {
+                "gpt-oss:20b-cloud": 0.0
             },
             {
                 "gpt-oss:20b-cloud": 0.0
@@ -1336,6 +1625,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.75
+            },
+            {
+                "gpt-oss:20b-cloud": 0.6923076923076923
             }
         ],
         "faithfulness_score": [
@@ -1344,6 +1636,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1370,6 +1665,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.5
+            },
+            {
+                "gpt-oss:20b-cloud": 0.5
             }
         ],
         "context_relevancy_score": [
@@ -1381,6 +1679,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.16279069767441862
+            },
+            {
+                "gpt-oss:20b-cloud": 0.14285714285714285
             }
         ],
         "answer_relevancy_score": [
@@ -1392,6 +1693,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.6
+            },
+            {
+                "gpt-oss:20b-cloud": 0.6
             }
         ],
         "faithfulness_score": [
@@ -1400,6 +1704,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1426,6 +1733,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.25
+            },
+            {
+                "gpt-oss:20b-cloud": 0
             }
         ],
         "context_relevancy_score": [
@@ -1437,6 +1747,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.4
+            },
+            {
+                "gpt-oss:20b-cloud": 0.3611111111111111
             }
         ],
         "answer_relevancy_score": [
@@ -1448,6 +1761,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8333333333333334
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8888888888888888
             }
         ],
         "faithfulness_score": [
@@ -1459,6 +1775,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.8
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             }
         ]
     },
@@ -1482,6 +1801,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.45
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...r.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ],
         "context_relevancy_score": [
@@ -1493,6 +1816,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.5
+            },
+            {
+                "gpt-oss:20b-cloud": 0.37142857142857144
             }
         ],
         "answer_relevancy_score": [
@@ -1504,6 +1830,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.9230769230769231
+            },
+            {
+                "gpt-oss:20b-cloud": 0.9230769230769231
             }
         ],
         "faithfulness_score": [
@@ -1512,6 +1841,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1539,6 +1871,9 @@
             {
                 "gpt-oss:20b-cloud": null,
                 "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...r.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
+            },
+            {
+                "gpt-oss:20b-cloud": 0
             }
         ],
         "context_relevancy_score": [
@@ -1547,6 +1882,9 @@
             },
             {
                 "llama3.2:latest": 0.5675675675675675
+            },
+            {
+                "gpt-oss:20b-cloud": 0.0
             },
             {
                 "gpt-oss:20b-cloud": 0.0
@@ -1561,6 +1899,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.875
+            },
+            {
+                "gpt-oss:20b-cloud": 0.875
             }
         ],
         "faithfulness_score": [
@@ -1569,6 +1910,9 @@
             },
             {
                 "llama3.2:latest": 0.3333333333333333
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1595,6 +1939,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0
+            },
+            {
+                "gpt-oss:20b-cloud": 0
             }
         ],
         "context_relevancy_score": [
@@ -1606,6 +1953,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.10714285714285714
+            },
+            {
+                "gpt-oss:20b-cloud": 0.0
             }
         ],
         "answer_relevancy_score": [
@@ -1617,6 +1967,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.7777777777777778
+            },
+            {
+                "gpt-oss:20b-cloud": 0.7777777777777778
             }
         ],
         "faithfulness_score": [
@@ -1625,6 +1978,9 @@
             },
             {
                 "llama3.2:latest": 0.5714285714285714
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1651,6 +2007,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 0
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...n.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ],
         "context_relevancy_score": [
@@ -1659,6 +2019,9 @@
             },
             {
                 "llama3.2:latest": 0.4375
+            },
+            {
+                "gpt-oss:20b-cloud": 0.0
             },
             {
                 "gpt-oss:20b-cloud": 0.0
@@ -1673,6 +2036,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.9
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8181818181818182
             }
         ],
         "faithfulness_score": [
@@ -1681,6 +2047,9 @@
             },
             {
                 "llama3.2:latest": 0.2
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1707,6 +2076,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...\\\"\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ],
         "context_relevancy_score": [
@@ -1715,6 +2088,9 @@
             },
             {
                 "llama3.2:latest": 0.7333333333333333
+            },
+            {
+                "gpt-oss:20b-cloud": 0.39285714285714285
             },
             {
                 "gpt-oss:20b-cloud": 0.39285714285714285
@@ -1729,6 +2105,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.9166666666666666
+            },
+            {
+                "gpt-oss:20b-cloud": 0.8333333333333334
             }
         ],
         "faithfulness_score": [
@@ -1737,6 +2116,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1763,6 +2145,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 0.7555555555555555
             }
         ],
         "context_relevancy_score": [
@@ -1774,6 +2159,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.5555555555555556
+            },
+            {
+                "gpt-oss:20b-cloud": 0.5384615384615384
             }
         ],
         "answer_relevancy_score": [
@@ -1782,6 +2170,9 @@
             },
             {
                 "llama3.2:latest": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": 0.875
             },
             {
                 "gpt-oss:20b-cloud": 0.875
@@ -1796,6 +2187,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Claims\n  Invalid JSON: expected `,` or `]` at line 1 column 1017 [type=json_invalid, input_value='{\"claims\":[\"Um lineage t...essos de ML em MLOps.\"}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ]
     },
@@ -1820,6 +2215,10 @@
             {
                 "gpt-oss:20b-cloud": null,
                 "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...g.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...T.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ],
         "context_relevancy_score": [
@@ -1828,6 +2227,9 @@
             },
             {
                 "llama3.2:latest": 0.7391304347826086
+            },
+            {
+                "gpt-oss:20b-cloud": 0.2962962962962963
             },
             {
                 "gpt-oss:20b-cloud": 0.2962962962962963
@@ -1842,6 +2244,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.7142857142857143
+            },
+            {
+                "gpt-oss:20b-cloud": 0.75
             }
         ],
         "faithfulness_score": [
@@ -1850,6 +2255,9 @@
             },
             {
                 "llama3.2:latest": 0.6666666666666666
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1876,6 +2284,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.25
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...\\\"\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ],
         "context_relevancy_score": [
@@ -1888,6 +2300,9 @@
             {
                 "gpt-oss:20b-cloud": null,
                 "logs": "1 validation error for ContextualRelevancyVerdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...g.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
+            },
+            {
+                "gpt-oss:20b-cloud": 0.06779661016949153
             }
         ],
         "answer_relevancy_score": [
@@ -1896,6 +2311,9 @@
             },
             {
                 "llama3.2:latest": 0.5
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0
@@ -1910,6 +2328,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 1.0
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Claims\n  Invalid JSON: expected `,` or `]` at line 1 column 1906 [type=json_invalid, input_value='{\"claims\":[\"Um sistema d...bre qual modelo usar.\"}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ]
     },
@@ -1933,6 +2355,10 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.3333333333333333
+            },
+            {
+                "gpt-oss:20b-cloud": null,
+                "logs": "1 validation error for Verdicts\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\\n{\\n  \"verdicts\"...s.\"\\n    }\\n  ]\\n}\\n```', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid"
             }
         ],
         "context_relevancy_score": [
@@ -1944,6 +2370,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.10256410256410256
+            },
+            {
+                "gpt-oss:20b-cloud": 0.0
             }
         ],
         "answer_relevancy_score": [
@@ -1955,6 +2384,9 @@
             },
             {
                 "gpt-oss:20b-cloud": 0.6666666666666666
+            },
+            {
+                "gpt-oss:20b-cloud": 0.6666666666666666
             }
         ],
         "faithfulness_score": [
@@ -1963,6 +2395,9 @@
             },
             {
                 "llama3.2:latest": 0.5
+            },
+            {
+                "gpt-oss:20b-cloud": 1.0
             },
             {
                 "gpt-oss:20b-cloud": 1.0

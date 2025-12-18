@@ -13,8 +13,7 @@ from app.commons.core import *  # noqa: F403
 from app.commons.core import logger
 from app.commons.settings import APP_NAME, AGENT_LABELS
 
-OLLAMA_MODEL = "gpt-oss:20b-cloud"
-# OLLAMA_MODEL = "deepseek-r1:latest"
+OLLAMA_MODEL = "qwen3:latest"
 
 model = LiteLlm(model=f"openai/{OLLAMA_MODEL}") 
 
